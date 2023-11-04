@@ -2,27 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="mainhading">
-        <h2 class="hading">GALLERY</h2>
-        <p class="gallery">galleryanimeimg</p>
+    <header id="main">
+        <form>
+        <h2>Step 1 your Details</h2>
+
+            <div class="same2">
+               <label for="name"> Name: </label><input type="name"><br><br>
+            </div>
+            
+            <div class="same2">
+               <label for="Email"> Email :</label> <input type="email" name="Email"><br><br>
+                    
+            </div>    
+            
+            <div class="same2">
+               <label for="number"> Contact: <input type="number" name="number"><br><br>
+            </div>
+            <h2>Step 2 Delivery Address</h2>
+
+            <div>
+            <label for="text"> Address:</label> <textarea name="text" rows="4" cols="50"></textarea><br><br>
+            <label for="number"> Post Code</label><input name="number" ><br><br>
+            <label for="text" >Country </label><input name="text" ><br><br>
+            </div>
+            <div>
+
+            <h2>Step 3 Card Details</h2><br>
+
+            <label for="">Card Type:</label>
+
+            <input name="web" type="radio" >
+              <img src="visa.png" height="15px" width="20px">          
+          
+            <label for="web"> Visa</label> 
+            <input name="web" type="radio" >
+            <img src="amex.png" height="20px" width="20px">
+
+            <label for="web">AmEx</label> 
+            <input name="web" type="radio" > 
+            <img src="masrecaed.jpg" height="20px" width="20px">
+
+            <label for="web">mastercard</label><br><br> 
+           
+            </div>
+
+            <div>
+            <label for="web">Carde number</label><input name="web" ><br><br>
+            <label for="web" >Security Code <code></code> </label><input name="web"><br><br>
+            <label for="web" > Name on card</label><input name="web" placeholder="Exact name on the card" ><br><br>
+            
+            </div>
+            <br>
+            <button>BUY IT !</button>
+        </form>
     </header>
-    <div class="images">
-        <img class="img1" src="image/posster 1.webp" alt="">
-        <img class="img1" src="image/posster 2.jpg" alt="">
-        <img class="img1" src="image/posster 3.jpg" alt="">
-        <img class="img1" src="image/posster 4.webp" alt="">
-        <img class="img2" src="image/posster 5.webp" alt="">
-        <img class="img2" src="image/posster 6.webp" alt="">
-        <img class="img2" src="image/posster 7.webp" alt="">
-        <img class="img2" src="image/posster 9.png" alt="">
-        <img class="img2" src="image/posster 8.jpg" alt="">
-        <img class="img2" src="image/posster 10.webp" alt="">
-    </div>
 </body>
 </html>
